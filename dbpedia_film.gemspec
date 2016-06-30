@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = DbpediaFilm::VERSION
   spec.authors       = ["Jamie Little"]
   spec.email         = ["jamielittle@outlook.com"]
-
+  spec.license       = 	"Apache-2.0"
   spec.summary       = "A gem for getting film metadata from DBPedia"
   spec.homepage      = "https://github.com/little9/dbpedia_film/"
 
