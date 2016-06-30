@@ -10,8 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamielittle@outlook.com"]
 
   spec.summary       = "A gem for getting film metadata from DBPedia"
-  spec.homepage      = ""
-
+  spec.homepage      = "https://github.com/little9/dbpedia_film/"
 
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -24,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest", "~> 5.0"
 
   spec.add_runtime_dependency "sparql"
-  
+
 end
